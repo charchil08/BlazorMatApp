@@ -1,0 +1,14 @@
+﻿@page "/demo-dialog"
+@inherits DemoDialogItemBase
+
+<MatDialogTitle style="display: flex; align-items: center;">
+    <div style="flex: 1;">Demo dialog</div>
+</MatDialogTitle>
+<MatDialogContent>
+    <p>@WebUrl</p>
+    <MatButton OnClick="@(_ => OpenDialog())">Open</MatButton>
+
+</MatDialogContent>
+<MatDialogActions>
+ 
+</MatDialogActions>
